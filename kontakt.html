@@ -31,6 +31,9 @@
         <li class="nav-item">
           <a class="nav-link" href="gameplay.html">Gameplay</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bossTeme.html" >Muzika</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -73,17 +76,18 @@
     </div>
     </section>
     <section class="text-center container unos">
-      <form action="https://formspree.io/f/xnnvqpoo" method="POST">
-        <h2>Vasi podaci u slucaju saveta</h2>
-        <label >Unesite vase ime: </label>&nbsp;
-        <input type="text" id="ime" name="ime"><br><br>
-        <label >Unesite vase email: </label>&nbsp;
-        <input type="text" id="email" name="email"><br><br>
-        <label >Unesite vase Poruku: </label>&nbsp;
-        <input type="text" id="poruka" name="email"><br><br>
-        <button class="btn btn-outline-success" onclick="Poruka()">Posaljite</button>
-        <pre id="Ispis" class="mt-4"></pre>
+      <form action="https://formspree.io/f/xeokzooe" method="POST">
+        <label>
+           Vaš email:
+          <input type="email" name="email" id="email">
+        </label><br><br>
+        <label>
+            Vaša poruka:
+            <textarea name="message" id="poruka"></textarea>
+        </label><br><br>
+        <button type="submit" onclick="Poruka()">Posalji</button>
       </form>
+      <pre id="Ispis"></pre>
     </section>
 
 <footer class="bg-dark text-white text-center p-5">

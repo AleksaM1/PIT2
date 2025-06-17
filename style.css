@@ -48,3 +48,30 @@
 #KontaktNaslov{
     color: blue;
 }
+.naslov{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+select, .pesma, input[type="range"] {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.pesma {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pesma:hover {
+    background-color: #ff6666;
+}
+input[type="range"] {
+    width: 200px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
